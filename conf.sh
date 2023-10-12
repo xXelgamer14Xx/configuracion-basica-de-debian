@@ -11,17 +11,14 @@ echo 'export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin' >> /root/.bashrc
 
 # Validar y configurar la fecha y hora
 date
-date --set "2023-06-01 21:12:00"
 
-# Configuración del sources.list
-nano /etc/apt/sources.list
 
 # Actualizar la lista de paquetes
 apt-get update
 
 # Instalar aplicaciones/servicios
 # Reemplaza "nombre_del_paquete" con el nombre del paquete que deseas instalar
-apt-get install nombre_del_paquete -y
+apt-get install sl -y
 
 # Instalar entorno gráfico
 # Reemplaza "nombre_del_entorno" con el nombre del entorno que deseas instalar (xfce4, lxde, gnome, kde-full)
